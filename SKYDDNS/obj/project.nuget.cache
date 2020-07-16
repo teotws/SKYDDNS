@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "jYdzrqTlFUvRWyMIUizGcEVHl6YaSHBrh19biPMWQUDMDh11HGmlgB/zJfmkJ6azWyyOMY8T5zyM24qtN98QhQ==",
+  "success": true,
+  "projectFilePath": "D:\\TestCode\\SKYDDNS\\SKYDDNS\\SKYDDNS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skyland\\.nuget\\packages\\hangfire.aspnetcore\\1.7.11\\hangfire.aspnetcore.1.7.11.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\hangfire.core\\1.7.11\\hangfire.core.1.7.11.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\hangfire.memorystorage\\1.7.0\\hangfire.memorystorage.1.7.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.0.0\\microsoft.extensions.caching.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.0.0\\microsoft.extensions.caching.memory.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.0\\microsoft.extensions.configuration.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.0\\microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.0.0\\microsoft.extensions.configuration.binder.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.0.0\\microsoft.extensions.dependencyinjection.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.http\\3.0.0\\microsoft.extensions.http.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.logging\\3.0.0\\microsoft.extensions.logging.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.0\\microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.0.0\\microsoft.extensions.options.configurationextensions.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\webapiclientcore\\1.0.5\\webapiclientcore.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
