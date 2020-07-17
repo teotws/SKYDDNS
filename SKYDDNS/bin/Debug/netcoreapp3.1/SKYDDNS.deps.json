@@ -24,9 +24,6 @@
     ".NETCoreApp,Version=v3.1": {
       "SKYDDNS/1.0.0": {
         "dependencies": {
-          "Hangfire.Core": "1.7.11",
-          "Hangfire.AspNetCore": "1.7.11",
-          "Hangfire.MemoryStorage": "1.7.0",
           "WebApiClientCore": "1.0.5",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -318,74 +315,6 @@
           "SKYDDNS.dll": {}
         }
       },
-      "Hangfire.AspNetCore/1.7.11": {
-        "dependencies": {
-          "Hangfire.Core": "1.7.11"
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/Hangfire.AspNetCore.dll": {
-            "assemblyVersion": "1.7.11.0",
-            "fileVersion": "1.7.11.0"
-          }
-        },
-        "compile": {
-          "lib/netcoreapp3.0/Hangfire.AspNetCore.dll": {}
-        }
-      },
-      "Hangfire.Core/1.7.11": {
-        "dependencies": {
-          "Newtonsoft.Json": "11.0.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Hangfire.Core.dll": {
-            "assemblyVersion": "1.7.11.0",
-            "fileVersion": "1.7.11.0"
-          }
-        },
-        "resources": {
-          "lib/netstandard2.0/es/Hangfire.Core.resources.dll": {
-            "locale": "es"
-          },
-          "lib/netstandard2.0/fa/Hangfire.Core.resources.dll": {
-            "locale": "fa"
-          },
-          "lib/netstandard2.0/nl/Hangfire.Core.resources.dll": {
-            "locale": "nl"
-          },
-          "lib/netstandard2.0/pt-BR/Hangfire.Core.resources.dll": {
-            "locale": "pt-BR"
-          },
-          "lib/netstandard2.0/pt-PT/Hangfire.Core.resources.dll": {
-            "locale": "pt-PT"
-          },
-          "lib/netstandard2.0/pt/Hangfire.Core.resources.dll": {
-            "locale": "pt"
-          },
-          "lib/netstandard2.0/zh-TW/Hangfire.Core.resources.dll": {
-            "locale": "zh-TW"
-          },
-          "lib/netstandard2.0/zh/Hangfire.Core.resources.dll": {
-            "locale": "zh"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Hangfire.Core.dll": {}
-        }
-      },
-      "Hangfire.MemoryStorage/1.7.0": {
-        "dependencies": {
-          "Hangfire.Core": "1.7.11"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Hangfire.MemoryStorage.dll": {
-            "assemblyVersion": "1.7.0.0",
-            "fileVersion": "1.7.0.0"
-          }
-        },
-        "compile": {
-          "lib/netstandard1.3/Hangfire.MemoryStorage.dll": {}
-        }
-      },
       "Microsoft.Extensions.Caching.Abstractions/3.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "3.0.0"
@@ -451,17 +380,6 @@
         }
       },
       "Microsoft.Extensions.Primitives/3.0.0": {},
-      "Newtonsoft.Json/11.0.1": {
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.1.21818"
-          }
-        },
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
       "System.Text.Json/4.6.0": {},
       "WebApiClientCore/1.0.5": {
         "dependencies": {
@@ -2186,27 +2104,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Hangfire.AspNetCore/1.7.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Z3FM67pW4t+XrYN1Yyx72HxSuiXmm1GsBPdtpfbCXgyFXAsUTJn5MV+1FcUyPSl61E2QwJpaKEGl/vH0N/ThJw==",
-      "path": "hangfire.aspnetcore/1.7.11",
-      "hashPath": "hangfire.aspnetcore.1.7.11.nupkg.sha512"
-    },
-    "Hangfire.Core/1.7.11": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-/v+INBYRJJzMt5CPi+qFRsikYjbwUweBwLKGPc9PnDjD1o8MhQ5Ggx2/EOhavkQRwFgBRk5y3jCiD1HKR/WBPw==",
-      "path": "hangfire.core/1.7.11",
-      "hashPath": "hangfire.core.1.7.11.nupkg.sha512"
-    },
-    "Hangfire.MemoryStorage/1.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-g4hBdD8CaePScNWDOtRlR0GCxRyCK3KaItPcmABurlUZ8hs0YrpGUAYWgSWUSw6RXuPf1ZUK0l4REpV+sKYm/w==",
-      "path": "hangfire.memorystorage/1.7.0",
-      "hashPath": "hangfire.memorystorage.1.7.0.nupkg.sha512"
-    },
     "Microsoft.Extensions.Caching.Abstractions/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2297,13 +2194,6 @@
       "sha512": "sha512-6gwewTbmOh+ZVBicVkL1XRp79sx4O7BVY6Yy+7OYZdwn3pyOKe9lOam+3gXJ3TZMjhJZdV0Ub8hxHt2vkrmN5Q==",
       "path": "microsoft.extensions.primitives/3.0.0",
       "hashPath": "microsoft.extensions.primitives.3.0.0.nupkg.sha512"
-    },
-    "Newtonsoft.Json/11.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pNN4l+J6LlpIvHOeNdXlwxv39NPJ2B5klz+Rd2UQZIx30Squ5oND1Yy3wEAUoKn0GPUj6Yxt9lxlYWQqfZcvKg==",
-      "path": "newtonsoft.json/11.0.1",
-      "hashPath": "newtonsoft.json.11.0.1.nupkg.sha512"
     },
     "System.Text.Json/4.6.0": {
       "type": "package",

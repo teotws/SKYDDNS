@@ -10,6 +10,7 @@ namespace SKYDDNS.Cloudflare
 {
     [Token]
     [HttpHost("https://api.cloudflare.com/client/v4/")]
+    [JsonReturn(EnsureSuccessStatusCode = false)]
     public interface ICloudflareApi : IHttpApi
     {
         /// <summary>
@@ -38,7 +39,7 @@ namespace SKYDDNS.Cloudflare
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
         [HttpPut("zones/{zoneId}/dns_records/{dnsId}")]
-        Task<ApiResult> UpdateDNSRecordAsync([Required] string zoneId, [Required] string dnsId, DNSRecordInput model, CancellationToken cancellationToken = default);
+        Task<ApiResult> UpdateDNSRecordAsync([Required] string zoneId, [Required] string dnsId, [JsonContent] DNSRecordInput model, CancellationToken cancellationToken = default);
 
     }
 }
