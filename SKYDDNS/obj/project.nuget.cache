@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J/l/8ZbwPoh1AnIeRUa32UkcGriYZLAhu8KgX4raXBqplVu6mpu0LR3kJjFBv9PgKTTxzHBxHtVbFlZdCm5bIQ==",
+  "dgSpecHash": "BnMxKK5wpjbBNsju2ewwhWBwvGcDBhu2sCU/nfaTC1j/ECEStaWllezwe0V4R1HXr3C4i+1gOgmGNmLN9FO8rw==",
   "success": true,
-  "projectFilePath": "D:\\TestCode\\SKYDDNS\\SKYDDNS\\SKYDDNS.csproj",
+  "projectFilePath": "d:\\TestCode\\SKYDDNS\\SKYDDNS\\SKYDDNS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.0.0\\microsoft.extensions.caching.abstractions.3.0.0.nupkg.sha512",
     "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.0.0\\microsoft.extensions.caching.memory.3.0.0.nupkg.sha512",

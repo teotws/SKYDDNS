@@ -443,11 +443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TestCode\\SKYDDNS\\SKYDDNS\\SKYDDNS.csproj",
+      "projectUniqueName": "d:\\TestCode\\SKYDDNS\\SKYDDNS\\SKYDDNS.csproj",
       "projectName": "SKYDDNS",
-      "projectPath": "D:\\TestCode\\SKYDDNS\\SKYDDNS\\SKYDDNS.csproj",
+      "projectPath": "d:\\TestCode\\SKYDDNS\\SKYDDNS\\SKYDDNS.csproj",
       "packagesPath": "C:\\Users\\skyland\\.nuget\\packages\\",
-      "outputPath": "D:\\TestCode\\SKYDDNS\\SKYDDNS\\obj\\",
+      "outputPath": "d:\\TestCode\\SKYDDNS\\SKYDDNS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
