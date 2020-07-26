@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BnMxKK5wpjbBNsju2ewwhWBwvGcDBhu2sCU/nfaTC1j/ECEStaWllezwe0V4R1HXr3C4i+1gOgmGNmLN9FO8rw==",
+  "dgSpecHash": "BZurr66CQNJp58LAeehleUWoV5gm4S2O0dz2fjAPvksDjw475qW7gRkmxIML0FKk/SnKSZwPcAbVPgNvHFQy5A==",
   "success": true,
   "projectFilePath": "d:\\TestCode\\SKYDDNS\\SKYDDNS\\SKYDDNS.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
     "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\3.0.0\\microsoft.extensions.options.configurationextensions.3.0.0.nupkg.sha512",
     "C:\\Users\\skyland\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\skyland\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
     "C:\\Users\\skyland\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
     "C:\\Users\\skyland\\.nuget\\packages\\webapiclientcore\\1.0.5\\webapiclientcore.1.0.5.nupkg.sha512"
   ],

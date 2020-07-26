@@ -8,7 +8,7 @@ namespace SKYDDNS
 {
     public class TaskOptions
     {
-        public int Interval { get; set; } = 10000;
+        public int Interval { get; set; } = 60 * 1000;
 
         public string ZoneId { get; set; }
 

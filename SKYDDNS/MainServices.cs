@@ -29,9 +29,12 @@ namespace SKYDDNS
         private static Timer timer;
         public async Task<bool> InitTaskAsnyc()
         {
+            //先执行一次
+            await Handler(_taskOptions);
+            //设置Timer，循环执行
             timer = new Timer(_taskOptions.Interval);
             timer.Elapsed += async (sender, e) => await Handler(_taskOptions);
-            timer.AutoReset = false;
+            timer.AutoReset = true;
             timer.Enabled = true;
             timer.Start();
 
@@ -141,11 +144,6 @@ namespace SKYDDNS
                     }
                 }
             }
-
-
-
         }
-
-
     }
 }
