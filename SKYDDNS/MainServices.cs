@@ -81,12 +81,12 @@ namespace SKYDDNS
                 {
                     if (record.content == ip)
                     {
-                        _logger.LogInformation($"DNS记录为{record.content},无需更新");
+                        _logger.LogInformation($"{item} DNS记录为{record.content},无需更新");
                         continue;
                     }
                     else
                     {
-                        _logger.LogInformation($"DNS记录为{record.content},即将更新");
+                        _logger.LogInformation($"{item} DNS记录为{record.content},即将更新");
                         var model = new DNSRecordInput()
                         {
                             type = DNSType.A,
